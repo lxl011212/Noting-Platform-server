@@ -4,6 +4,7 @@ const postSchema = mongoose.Schema({
     title: String,
     message: String,
     creator: String,
+    userId: String,
     selectedFile: String,
     createdAt: {
         type: Date,
